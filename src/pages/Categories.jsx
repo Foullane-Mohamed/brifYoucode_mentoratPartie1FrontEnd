@@ -154,11 +154,11 @@ const Categories = () => {
 
   return (
     <div>
-      <div className="flex justify-between items-center mb-6">
-        <h1 className="text-3xl font-bold">Catégories</h1>
+      <div className="flex justify-between items-center mt-20 mb-6">
+        <h1 className="text-3xl text-black font-bold">Catégories</h1>
         <button
           onClick={handleAddCategory}
-          className="bg-primary text-white font-medium px-4 py-2 rounded-md hover:bg-primary-dark transition"
+          className="bg-primary text-2xl font-semibold mb-6 font-medium px-4 py-2 rounded-md hover:bg-primary-dark transition"
         >
           Ajouter une catégorie
         </button>
@@ -220,7 +220,7 @@ const Categories = () => {
               </button>
               <button
                 type="submit"
-                className="px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark transition"
+                className="px-4 py-2  bg-primary text-white rounded-md hover:bg-primary-dark transition"
                 disabled={formLoading}
               >
                 {formLoading ? (

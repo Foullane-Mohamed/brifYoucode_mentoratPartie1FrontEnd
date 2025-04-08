@@ -136,11 +136,12 @@ const Courses = () => {
 
   return (
     <div>
-      <div className="flex justify-between items-center mb-6">
+  
+      <div className="flex justify-between items-center mt-20 mb-6">
         <h1 className="text-3xl font-bold">Cours</h1>
         <button
           onClick={handleAddCourse}
-          className="bg-primary text-white font-medium px-4 py-2 rounded-md hover:bg-primary-dark transition"
+          className="bg-primary text-black font-medium px-4 py-2 rounded-md hover:bg-primary-dark transition"
         >
           Ajouter un cours
         </button>

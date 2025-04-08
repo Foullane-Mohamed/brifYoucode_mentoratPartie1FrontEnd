@@ -189,11 +189,11 @@ const Stats = () => {
   
   return (
     <div>
-      <h1 className="text-3xl font-bold mb-6">Statistiques</h1>
+      <h1 className="text-3xl font-bold mt-20 mb-6">Statistiques</h1>
       
       {/* Statistiques générales */}
       {courseStats && (
-        <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+        <div className="bg-black rounded-lg shadow-md p-6 mb-8">
           <h2 className="text-2xl font-semibold mb-4">Général</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
